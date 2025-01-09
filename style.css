@@ -255,6 +255,8 @@ hr {
     text-align:center;
     align-items: center;
     width:100%;
+    possition: relative;
+    padding-top: 20px;
 }
 
 
