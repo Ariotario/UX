@@ -12,8 +12,12 @@
     .column:nth-child(2), .column:nth-child(3)  {
         flex-basis: 100%;
     }
-}
 
+.container-for-header h1 {
+    font-size: 20px;
+    padding: 10px;
+    }
+}
 :root {
    --primary-color: rgb(102, 156,203);
    --primary-color-dark: rgb(86, 129, 167);
@@ -533,11 +537,12 @@ hr {
     position: absolute;
     /*margin-bottom: 40px;*/
     /*position:relative;*/
-    /*top: 40%;*/
-    /*left: 50%;*/
-    /*transform: translateX(-50%);*/
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
     color: var(--color-blue);
     z-index: 2;
+    padding: 20px;
     /*margin: 0;*/
     text-align: center;
 }
