@@ -526,15 +526,16 @@ hr {
 }
 
 .container-for-header h1 {
-    margin-bottom: 10px;
-    margin-top: 10px;
-    /*position: absolute;*/
-    margin-bottom: 40px;
-    position:relative;
-    top: 25%;
+   /* margin-bottom: 10px;*/
+    /*margin-top: 10px;*/
+    position: absolute;
+    /*margin-bottom: 40px;*/
+    /*position:relative;*/
+    top: 20%;
     left: 50%;
     transform: translateX(-50%);
     color: var(--color-blue);
+    z-index: 2;
 }
 
 .header {
