@@ -252,11 +252,12 @@ hr {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    text-align:center;
+    /*text-align:center;*/
     align-items: center;
     width:100%;
     possition: relative;
-    padding-top: 20px;
+    /*padding-top: 20px;*/
+    padding : 0;
 }
 
 
@@ -531,11 +532,13 @@ hr {
     position: absolute;
     /*margin-bottom: 40px;*/
     /*position:relative;*/
-    top: 20%;
+    top: 30%;
     left: 50%;
     transform: translateX(-50%);
     color: var(--color-blue);
     z-index: 2;
+    margin: 0;
+    text-align: center;
 }
 
 .header {
