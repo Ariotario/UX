@@ -536,9 +536,9 @@ hr {
     /*position:relative;*/
     /*top: 0;*/
     /*left: 50%;*/
-    transform: translateX(-50%);
+    /*transform: translateX(-50%);*/
     color: var(--color-blue);
-    z-index: 2;
+    /*z-index: 2;*/
     /*padding: 20px;*/
     /*margin: 0;*/
     text-align: center;
