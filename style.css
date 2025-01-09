@@ -13,10 +13,7 @@
         flex-basis: 100%;
     }
 
-.container-for-header h1 {
-    font-size: 20px;
-    padding: 10px;
-    }
+
 }
 :root {
    --primary-color: rgb(102, 156,203);
